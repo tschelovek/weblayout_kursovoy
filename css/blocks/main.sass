@@ -1,0 +1,70 @@
+.hero
+  &__text-block
+    padding: 94px 0
+    background: white url("../images/microphone.png") right center no-repeat
+    p
+      margin-bottom: 46px
+      max-width: 630px
+      line-height: 1.5
+  h1
+    margin-bottom: 16px
+    font-size: $f60
+    font-weight: 700
+    span
+      font-weight: 400
+      font-style: italic
+
+.podcasts
+  padding: 94px 0
+  background-color: $lightGrey
+  .container
+    display: flex
+    flex-flow: column
+  .btn_transparent
+    margin: 0 auto
+  &__list
+    margin: 30px auto 60px
+    display: flex
+    flex-flow: wrap
+    gap: 30px
+    li
+      max-width: 540px
+      min-width: 396px
+      position: relative
+      flex: 2
+  &__item
+    display: flex
+    background-color: white
+    //width: 100%
+    &__image-wrapper
+      position: relative
+      font-size: 0
+    &__date
+      padding: 3px 6px 2px
+      position: absolute
+      left: 0
+      bottom: 0
+      background-color: $lightGrey
+      font-size: $f10
+    &__main
+      display: flex
+      flex-flow: column
+      justify-content: flex-end
+    &__player
+      padding: 24px 30px
+      display: flex
+      height: 100%
+    &__footer
+      padding: 8px 30px 6px
+      border-top: 1px solid $lightGrey
+      ul
+        display: flex
+      li
+        &:not(:last-child)
+          margin-right: 30px
+        span
+          color: $grey
+          font-size: $f16
+
+
+
